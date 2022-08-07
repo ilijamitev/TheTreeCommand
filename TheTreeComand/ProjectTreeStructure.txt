@@ -1,0 +1,176 @@
+TheTreeCommand
+|
++---.git
+|   +---COMMIT_EDITMSG
+|   +---config
+|   +---description
+|   +---FETCH_HEAD
+|   +---HEAD
+|   +---hooks
+|   |   +---applypatch-msg.sample
+|   |   +---commit-msg.sample
+|   |   +---fsmonitor-watchman.sample
+|   |   +---post-update.sample
+|   |   +---pre-applypatch.sample
+|   |   +---pre-commit.sample
+|   |   +---pre-merge-commit.sample
+|   |   +---pre-push.sample
+|   |   +---pre-rebase.sample
+|   |   +---pre-receive.sample
+|   |   +---prepare-commit-msg.sample
+|   |   +---push-to-checkout.sample
+|   |   \---update.sample
+|   +---index
+|   +---info
+|   |   \---exclude
+|   +---logs
+|   |   +---HEAD
+|   |   \---refs
+|   |       +---heads
+|   |       |   \---main
+|   |       \---remotes
+|   |           \---origin
+|   |               \---main
+|   +---objects
+|   |   +---3e
+|   |   |   \---e49334b59f238cbdc1e263418ba4a598030539
+|   |   +---42
+|   |   |   \---6d76ddc13ce6b8b9267619092b2faa8ae167e7
+|   |   +---69
+|   |   |   \---dde180da071cebc1c9e21087236c8dae74dbdd
+|   |   +---df
+|   |   |   \---e0770424b2a19faf507a501ebfc23be8f54e7b
+|   |   +---ed
+|   |   |   \---4b73ace42913f2d80da226dff8daf1f9f8ab73
+|   |   +---f1
+|   |   |   \---533f419770668d064c7d24e217983236e4dfcb
+|   |   +---info
+|   |   \---pack
+|   \---refs
+|       +---heads
+|       |   \---main
+|       +---remotes
+|       |   \---origin
+|       |       \---main
+|       \---tags
++---.gitattributes
++---.gitignore
++---LICENSE
++---README.md
+\---TheTreeComand
+    +---.vs
+    |   +---ProjectEvaluation
+    |   |   +---thetreecomand.metadata.v2
+    |   |   \---thetreecomand.projects.v2
+    |   \---TheTreeComand
+    |       +---DesignTimeBuild
+    |       |   \---.dtbcache.v2
+    |       +---FileContentIndex
+    |       |   +---6a8bbf0d-c550-4ff7-a203-63d8176f0793.vsidx
+    |       |   +---merges
+    |       |   \---read.lock
+    |       \---v17
+    |           +---.futdcache.v1
+    |           \---.suo
+    +---TheTreeComand.sln
+    +---TreeComandApp
+    |   +---bin
+    |   |   +---Debug
+    |   |   |   \---net6.0
+    |   |   |       +---TreeComandApp.deps.json
+    |   |   |       +---TreeComandApp.dll
+    |   |   |       +---TreeComandApp.exe
+    |   |   |       +---TreeComandApp.pdb
+    |   |   |       +---TreeComandApp.runtimeconfig.json
+    |   |   |       +---TreeComandService.dll
+    |   |   |       \---TreeComandService.pdb
+    |   |   \---Release
+    |   |       \---net6.0
+    |   +---obj
+    |   |   +---Debug
+    |   |   |   \---net6.0
+    |   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+    |   |   |       +---apphost.exe
+    |   |   |       +---ref
+    |   |   |       |   \---TreeComandApp.dll
+    |   |   |       +---refint
+    |   |   |       |   \---TreeComandApp.dll
+    |   |   |       +---TreeComandApp.AssemblyInfo.cs
+    |   |   |       +---TreeComandApp.AssemblyInfoInputs.cache
+    |   |   |       +---TreeComandApp.assets.cache
+    |   |   |       +---TreeComandApp.csproj.AssemblyReference.cache
+    |   |   |       +---TreeComandApp.csproj.BuildWithSkipAnalyzers
+    |   |   |       +---TreeComandApp.csproj.CopyComplete
+    |   |   |       +---TreeComandApp.csproj.CoreCompileInputs.cache
+    |   |   |       +---TreeComandApp.csproj.FileListAbsolute.txt
+    |   |   |       +---TreeComandApp.dll
+    |   |   |       +---TreeComandApp.GeneratedMSBuildEditorConfig.editorconfig
+    |   |   |       +---TreeComandApp.genruntimeconfig.cache
+    |   |   |       +---TreeComandApp.GlobalUsings.g.cs
+    |   |   |       \---TreeComandApp.pdb
+    |   |   +---project.assets.json
+    |   |   +---project.nuget.cache
+    |   |   +---Release
+    |   |   |   \---net6.0
+    |   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+    |   |   |       +---ref
+    |   |   |       +---refint
+    |   |   |       +---TreeComandApp.AssemblyInfo.cs
+    |   |   |       +---TreeComandApp.AssemblyInfoInputs.cache
+    |   |   |       +---TreeComandApp.assets.cache
+    |   |   |       +---TreeComandApp.csproj.AssemblyReference.cache
+    |   |   |       +---TreeComandApp.GeneratedMSBuildEditorConfig.editorconfig
+    |   |   |       \---TreeComandApp.GlobalUsings.g.cs
+    |   |   +---TreeComandApp.csproj.nuget.dgspec.json
+    |   |   +---TreeComandApp.csproj.nuget.g.props
+    |   |   \---TreeComandApp.csproj.nuget.g.targets
+    |   +---Program.cs
+    |   \---TreeComandApp.csproj
+    \---TreeComandService
+        +---bin
+        |   +---Debug
+        |   |   \---net6.0
+        |   |       +---TreeComandService.deps.json
+        |   |       +---TreeComandService.dll
+        |   |       \---TreeComandService.pdb
+        |   \---Release
+        |       \---net6.0
+        +---Helpers
+        |   \---HelperService.cs
+        +---obj
+        |   +---Debug
+        |   |   \---net6.0
+        |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+        |   |       +---ref
+        |   |       |   \---TreeComandService.dll
+        |   |       +---refint
+        |   |       |   \---TreeComandService.dll
+        |   |       +---TreeComandService.AssemblyInfo.cs
+        |   |       +---TreeComandService.AssemblyInfoInputs.cache
+        |   |       +---TreeComandService.assets.cache
+        |   |       +---TreeComandService.csproj.AssemblyReference.cache
+        |   |       +---TreeComandService.csproj.BuildWithSkipAnalyzers
+        |   |       +---TreeComandService.csproj.CoreCompileInputs.cache
+        |   |       +---TreeComandService.csproj.FileListAbsolute.txt
+        |   |       +---TreeComandService.dll
+        |   |       +---TreeComandService.GeneratedMSBuildEditorConfig.editorconfig
+        |   |       +---TreeComandService.GlobalUsings.g.cs
+        |   |       \---TreeComandService.pdb
+        |   +---project.assets.json
+        |   +---project.nuget.cache
+        |   +---Release
+        |   |   \---net6.0
+        |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+        |   |       +---ref
+        |   |       +---refint
+        |   |       +---TreeComandService.AssemblyInfo.cs
+        |   |       +---TreeComandService.AssemblyInfoInputs.cache
+        |   |       +---TreeComandService.assets.cache
+        |   |       +---TreeComandService.csproj.AssemblyReference.cache
+        |   |       +---TreeComandService.GeneratedMSBuildEditorConfig.editorconfig
+        |   |       \---TreeComandService.GlobalUsings.g.cs
+        |   +---TreeComandService.csproj.nuget.dgspec.json
+        |   +---TreeComandService.csproj.nuget.g.props
+        |   \---TreeComandService.csproj.nuget.g.targets
+        +---TreeComandService.csproj
+        \---TreeService.cs
